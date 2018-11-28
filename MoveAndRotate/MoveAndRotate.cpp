@@ -77,7 +77,7 @@ int main()
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB); // Single Basic-color
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("OpenGL Drawing Basic Shapes");
+	glutCreateWindow("OpenGL Move and Rotate");
 
 	Init();
 	glutReshapeFunc(ReShape);
